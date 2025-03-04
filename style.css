@@ -1,0 +1,1361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Color */
+    --white-color: #fff;
+    --dark-color: #252525;
+    --primary-color: #3b141c;
+    --secondary-color: #f3961c;
+    --link-pink-color: #faf4f5;
+    --medium-gray-color: #ccc;
+}
+
+/* Шрифты */
+@font-face {
+    font-family: 'Linkin Park' arial;
+    src: url("../fonts/linkin-park (2).ttf");
+}
+
+@font-face {
+    font-family: 'Steppe-Book';
+    src: url("../fonts/Steppe-Book.ttf");
+}
+
+@font-face {
+    font-family: 'Steppe-ExtraBold';
+    src: url("../fonts/Steppe-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: 'ofont.ru_Czizh';
+    src: url("../fonts/ofont.ru_Czizh.ttf");
+}
+
+body {
+    background-image: url(images/zfiXL9m5C10.jpg);
+    font-family: 'Steppe-Book', sans-serif;
+    color: whitesmoke;
+}
+
+/* Всё содержимое внутри main */
+.main {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Шапка */
+.header {
+    padding: 10px 0 10px;
+    background-color: whitesmoke;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    vertical-align: bottom;
+    font-family: 'Linkin Park';
+    color: black;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin-left: 200px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.menu-item a {
+    color: black;
+    font-size: 16px;
+    line-height: 130%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu-item a:hover {
+    border-bottom: 2px solid black;
+}
+
+/* После ШАПКИ самый страницы первый пункт */
+.main-content {
+    padding-top: 161px;
+    padding-bottom: 200px;
+}
+
+.main-info {
+    max-width: 811px;
+}
+
+.main-title {
+    font-family: 'Linkin Park', arial;
+    color: whitesmoke;
+    font-size: 100px;
+    line-height: 110%;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.main-text {
+    max-width: 697px;
+    font-size: 28px;
+    line-height: 130%;
+    margin-bottom: 40px;
+    font-family: 'ofont.ru_Czizh';
+}
+
+.main-image {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    z-index: -1;
+}
+
+.main-content .main-info .button {
+    border-radius: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 28px;
+    color: whitesmoke;
+    outline: none;
+    cursor: pointer;
+}
+
+.main-content .main-info .button:hover {
+    color: var(--white-color);
+    border-color: var(--white-color);
+    background: transparent;
+}
+
+.main-content .main-info .button {
+    padding: 16px 26px;
+    background: var(--secondary-color);
+    color: var(--white-color);
+    border: 2px solid transparent;
+}
+
+/* ДЛЯ ВСЕХ ЗАГОЛОВКОВ */
+.common-title {
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    font-size: 60px;
+    line-height: 100%;
+    text-align: center;
+}
+
+/* Детство */
+.Childhood-items {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.Childhood-item-text {
+    font-size: 18px;
+    line-height: 130%;
+    color: whitesmoke;
+}
+
+.Childhood-item-text-2 {
+    margin-top: 25px;
+}
+
+.Childhood-item-text-3 {
+    margin-top: 85px;
+    float: left;
+    margin-left: -265px;
+}
+
+/* Коллективы */
+.Childhood-item-text-8 {
+    font-size: 18px;
+    line-height: 130%;
+    color: whitesmoke;
+}
+
+.Childhood-item-text-9 {
+    font-size: 18px;
+    line-height: 130%;
+    color: whitesmoke;
+}
+
+.Childhood-item-text-10 {
+    font-size: 18px;
+    line-height: 130%;
+    color: whitesmoke;
+}
+
+.One-Perfomans-Chester img {
+    width: 400px;
+    float: center;
+    margin-left: 400px;
+}
+
+.One-Perfomans-Chester p {
+    float: center;
+    margin-left: 155px;
+}
+
+.Grey-Daze-Perfomans-Chester p {
+    font-size: 40px;
+    line-height: 130%;
+    margin-left: -1px;
+}
+
+.Childhood-item-text-11 {
+    font-size: 18px;
+    line-height: 130%;
+    color: whitesmoke;
+    margin-top: 25px;
+}
+
+.Childhood-item-text-12 {
+    font-size: 18px;
+    line-height: 130%;
+    color: whitesmoke;
+}
+
+.Childhood-item-text-13 {
+    font-size: 18px;
+    line-height: 130%;
+    color: whitesmoke;
+}
+
+.Childhood-item-text-14 {
+    font-size: 18px;
+    line-height: 130%;
+    color: whitesmoke;
+}
+
+.Childhood-item-text-15 {
+    font-size: 18px;
+    line-height: 130%;
+    color: whitesmoke;
+}
+
+.Linkin-Park-Perfomans-Chester h1 {
+    font-family: 'Linkin Park', arial;
+    margin-top: 25px;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.Childhood-item-text-16 {
+    margin-top: 45px;
+}
+
+.Linkin-Park-Perfomans-Chester-img {
+    margin-top: 25px;
+}
+
+.video-Crawling video {
+    border: 1px whitesmoke solid;
+    margin-top: 25px;
+    width: 500px;
+}
+
+.video-Numb video {
+    margin-top: 25px;
+}
+
+.Childhood-item-text-17 p {
+    margin-top: 25px;
+}
+
+.Childhood-item-text-17 {
+    margin-top: 15px;
+}
+
+.Dead-by-Sunrise-Perfomans-Chester-img {
+    margin-top: 25px;
+}
+
+.Childhood-item-text-18 p {
+    margin-top: 25px;
+}
+
+.Childhood-item-text-18 {
+    margin-top: 15px;
+}
+
+.Stone-Temple-Pilots-Perfomans-Chester-img {
+    margin-top: 25px;
+}
+
+/* Для Главной страницы ПОДВАЛ (Footer) */
+footer {
+    width: 100%;
+    background-color: transparent;
+    color: whitesmoke;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    position: relative;
+}
+
+.wrapper {
+    height: 245px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+}
+
+.grid-container {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    font-family: 'Linkin Park';
+    font-size: 98px;
+    margin-top: 20px;
+    letter-spacing: 10px;
+}
+
+.row {
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col { 
+    margin-left: 10px;
+}
+
+.wrapper-2 {
+    height: 51px;
+    margin-top: 38px;
+    margin-left: -5px;
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+}
+
+.wrapper-2 p {
+    text-align: center;
+    margin-top: 15px;
+    line-height: 1.8;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Steppe-ExtraBold', sans-serif;
+}
+
+.wrapper-3 {
+    height: 51px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: -39px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+}
+
+.wrapper-3 a{
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit; 
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 45px;
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    cursor: pointer;
+}
+
+.wrapper-4 {
+    height: 51px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: -40px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+}
+
+.wrapper-4 a{
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit; 
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 45px;
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    cursor: pointer;
+}
+
+.wrapper-5 {
+    height: 51px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: -39px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+}
+
+.wrapper-5 a{
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit; 
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 45px;
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    cursor: pointer;
+}
+
+.wrapper-6 {
+    height: 51px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: -39px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+}
+
+.wrapper-6 a{
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit; 
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 18px;
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    cursor: pointer;
+}
+
+.wrapper-7 {
+    height: 51px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: -40px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+}
+
+.wrapper-7 a{
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit; 
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    cursor: pointer;
+}
+
+.wrapper-8 {
+    height: 51px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: -39px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+}
+
+.wrapper-8 .icon-group{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: -15px;
+    margin-left: auto;
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    cursor: pointer;
+}
+
+.form__input1 {
+    width: 50%;
+    height: 16px;
+    place-items: center;
+    margin-left: 250px;
+    outline: none;
+    background-color: #fff;
+    padding: 10px 10px;
+    margin-top: 5px;
+    border: none;
+}
+
+.discover-new-btn {
+    background-color: var(--secondary-color);
+    width: 178px;
+    height: -8px;
+    box-sizing: border-box;
+    padding: 18px;
+    padding: 10px 0;
+    margin-left: -4px;
+    text-align: center;
+    font-size: 13px;
+    color: whitesmoke;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.span5 {
+    font-family: 'Steppe-ExtraBold, sans-serif';
+    font-size: 18px;
+    margin-left: 250px;
+    margin-top: 25px;
+}
+
+/* АЛЬБОМЫ */
+.hero .right-sec {
+    width: 70%;
+    padding-top: 100px;
+    float: right;
+}
+
+.hero .night-sec {
+    width: 50%;
+    padding-top: 100px;
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+}
+
+.hero .night-sec .dsc_Alboms {
+    display: inline-block;
+    padding-left: 45px;
+    padding: 10px;
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    display: flex;
+    float: center;
+}
+
+.right-sec .content {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* ОБЩАЯ ИСТОРИЯ */
+.wrapper-the-whole-story-history {
+    height: 2650px;
+    background-color: transparent;
+    border: 0.5px solid whitesmoke;
+    margin-top: 110px;
+}
+
+.Title-Groups-the-whole-story-history {
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 40px;
+    float: left;
+}
+
+/* История + Честер Беннингтон */
+.wrapper-history {
+    height: 410px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    margin-top: -2650px;
+}
+
+.grid-container-history-item {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    font-size: 98px;
+    margin-top: 10px;
+    letter-spacing: 10px;
+}
+
+/* История Честер Беннингтон */
+.Chester-Bennington-history {
+    float: left;
+    margin-left: -600px;
+    margin-top: 12px;
+    width: 550px;
+}
+
+.Title-Groups-1 {
+    float: right;
+    margin-left: 545px;
+    margin-top: -635px;
+    line-height: 70px;
+}
+
+.Title-Groups-1 h1 {
+    font-size: 45px;
+    font-family: 'Linkin Park', arial;
+    letter-spacing: 5px;
+}
+
+.Title-Groups-1 p {
+    font-size: 13px;
+    font-family: 'Steppe-Book', sans-serif;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+/* История Майк Шинода */
+.wrapper-history-Mike-Shinoda {
+    height: 410px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    margin-top: -1px;
+}
+
+.grid-container-history-item-Mike-Shinoda {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    font-size: 98px;
+    margin-top: 10px;
+    letter-spacing: 10px;
+}
+
+.Mike-Shinoda-history {
+    width: 555px;
+    margin-left: -600px;
+    margin-top: 15px;
+}
+
+.Title-Groups-1-Mike-Shinoda {
+    float: right;
+    margin-left: 600px;
+    margin-top: -620px;
+}
+
+.Title-Groups-1-Mike-Shinoda h1 {
+    font-size: 45px;
+    font-family: 'Linkin Park', arial;
+    letter-spacing: 5px;
+    line-height: 100px;
+}
+
+.Title-Groups-1-Mike-Shinoda p {
+    font-size: 13px;
+    font-family: 'Steppe-Book', sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+/* История Брэд Делсон */
+.wrapper-history-Brad-Delson {
+    height: 410px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    margin-top: -1px;
+}
+
+.grid-container-history-item-Brad-Delson {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    font-size: 98px;
+    margin-top: 10px;
+    letter-spacing: 10px;
+}
+
+.Brad-Delson-history {
+    width: 555px;
+    margin-left: -600px;
+    margin-top: 10px;
+}
+
+.Title-Groups-1-Brad-Delson {
+    float: right;
+    margin-left: 500px;
+    margin-top: -670px;
+}
+
+.Title-Groups-1-Brad-Delson h1 {
+    font-size: 45px;
+    font-family: 'Linkin Park', arial;
+    letter-spacing: 5px;
+    line-height: 100px;
+}
+
+.Title-Groups-1-Brad-Delson p {
+    font-size: 13px;
+    font-family: 'Steppe-Book', sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+/* История Дейв Фаррелл */
+.wrapper-history-Dave-Farrell {
+    height: 410px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    margin-top: -1px;
+}
+
+.grid-container-history-item-Dave-Farrell {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    font-size: 98px;
+    margin-top: 10px;
+    letter-spacing: 10px;
+}
+
+.Dave-Farrell-history {
+    width: 555px;
+    margin-left: -600px;
+    margin-top: 10px;
+}
+
+.Title-Groups-1-Dave-Farrell {
+    float: right;
+    margin-left: 340px;
+    margin-top: -670px;
+}
+
+.Title-Groups-1-Dave-Farrell h1 {
+    font-size: 45px;
+    font-family: 'Linkin Park', arial;
+    letter-spacing: 5px;
+    line-height: 100px;
+}
+
+.Title-Groups-1-Dave-Farrell p {
+    font-size: 13px;
+    font-family: 'Steppe-Book', sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+/* История Руб Бурдон */
+.wrapper-history-Rob-Bourdon {
+    height: 410px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    margin-top: -1px;
+}
+
+.grid-container-history-item-Rob-Bourdon {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    font-size: 98px;
+    margin-top: 10px;
+    letter-spacing: 10px;
+}
+
+.Rob-Bourdon-history {
+    width: 555px;
+    margin-left: -600px;
+    margin-top: 10px;
+}
+
+.Title-Groups-1-Rob-Bourdon {
+    float: right;
+    margin-left: 340px;
+    margin-top: -670px;
+}
+
+.Title-Groups-1-Rob-Bourdon h1 {
+    font-size: 45px;
+    font-family: 'Linkin Park', arial;
+    letter-spacing: 5px;
+    line-height: 100px;
+}
+
+.Title-Groups-1-Rob-Bourdon p {
+    font-size: 13px;
+    font-family: 'Steppe-Book', sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+/* История Джо Хан */
+.wrapper-history-Joe-Hahn-1 {
+    height: 390px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    margin-top: -1px;
+}
+
+.grid-container-history-item-Joe-Hahn-1 {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    font-size: 98px;
+    margin-top: 10px;
+    letter-spacing: 10px;
+}
+
+.Joe-Hahn-history-1 {
+    width: 555px;
+    margin-left: -600px;
+    margin-top: 10px;
+}
+
+.Title-Groups-1-Joe-Hahn-1 {
+    float: right;
+    margin-left: 370px;
+    margin-top: -630px;
+}
+
+.Title-Groups-1-Joe-Hahn-1 h1 {
+    font-size: 45px;
+    font-family: 'Linkin Park', arial;
+    letter-spacing: 5px;
+    line-height: 100px;
+}
+
+.Title-Groups-1-Joe-Hahn-1 p {
+    font-size: 13px;
+    font-family: 'Steppe-Book', sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+/* БУДУЩЕЕ ГРУППЫ (ОБЩАЯ ИСТОРИЯ) */
+.wrapper-the-whole-story-history-2 {
+    height: 2450px;
+    background-color: transparent;
+    border: 0.5px solid whitesmoke;
+    margin-top: 110px;
+}
+
+.Title-Groups-the-whole-story-history-2 {
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 40px;
+    float: left;
+}
+
+/* БУДУЩЕЕ ГРУППЫ (История Эмили Армстронг) */
+.wrapper-history-Emily-Armstrong {
+    height: 410px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    margin-top: -2450px;
+}
+
+.grid-container-history-item-Emily-Armstrong {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    font-size: 98px;
+    margin-top: 10px;
+    letter-spacing: 10px;
+}
+
+.Emily-Armstrong-history {
+    width: 555px;
+    margin-left: -600px;
+    margin-top: 10px;
+}
+
+.Title-Groups-1-Emily-Armstrong {
+    float: right;
+    margin-left: 440px;
+    margin-top: -682px;
+}
+
+.Title-Groups-1-Emily-Armstrong h1 {
+    font-size: 45px;
+    font-family: 'Linkin Park', arial;
+    letter-spacing: 5px;
+    line-height: 100px;
+}
+
+.Title-Groups-1-Emily-Armstrong p {
+    font-size: 13px;
+    font-family: 'Steppe-Book', sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+/* История Майк Шинода */
+.wrapper-history-Mike-Shinoda-2 {
+    height: 350px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    margin-top: -1px;
+}
+
+.grid-container-history-item-Mike-Shinoda-2 {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    font-size: 98px;
+    margin-top: 10px;
+    letter-spacing: 10px;
+}
+
+.Mike-Shinoda-history-2 {
+    width: 555px;
+    margin-left: -600px;
+    margin-top: 15px;
+}
+
+.Title-Groups-1-Mike-Shinoda-2 {
+    float: right;
+    margin-left: 600px;
+    margin-top: -505px;
+}
+
+.Title-Groups-1-Mike-Shinoda-2 h1 {
+    font-size: 45px;
+    font-family: 'Linkin Park', arial;
+    letter-spacing: 5px;
+    line-height: 100px;
+}
+
+.Title-Groups-1-Mike-Shinoda-2 p {
+    font-size: 13px;
+    font-family: 'Steppe-Book', sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+/* История Брэд Делсон */
+.wrapper-history-Brad-Delson-2 {
+    height: 350px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    margin-top: -1px;
+}
+
+.grid-container-history-item-Brad-Delson-2 {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    font-size: 98px;
+    margin-top: 10px;
+    letter-spacing: 10px;
+}
+
+.Brad-Delson-history-2 {
+    width: 555px;
+    margin-left: -600px;
+    margin-top: 10px;
+}
+
+.Title-Groups-1-Brad-Delson-2 {
+    float: right;
+    margin-left: 500px;
+    margin-top: -535px;
+}
+
+.Title-Groups-1-Brad-Delson-2 h1 {
+    font-size: 45px;
+    font-family: 'Linkin Park', arial;
+    letter-spacing: 5px;
+    line-height: 100px;
+}
+
+.Title-Groups-1-Brad-Delson-2 p {
+    font-size: 13px;
+    font-family: 'Steppe-Book', sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+/* История Дейв Фаррелл */
+.wrapper-history-Dave-Farrell-2 {
+    height: 340px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    margin-top: -1px;
+}
+
+.grid-container-history-item-Dave-Farrell-2 {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    font-size: 98px;
+    margin-top: 10px;
+    letter-spacing: 10px;
+}
+
+.Dave-Farrell-history-2 {
+    width: 555px;
+    height: 300px;
+    margin-left: -600px;
+    margin-top: 10px;
+}
+
+.Title-Groups-1-Dave-Farrell-2 {
+    float: right;
+    margin-left: 340px;
+    margin-top: -530px;
+}
+
+.Title-Groups-1-Dave-Farrell-2 h1 {
+    font-size: 45px;
+    font-family: 'Linkin Park', arial;
+    letter-spacing: 5px;
+    line-height: 100px;
+}
+
+.Title-Groups-1-Dave-Farrell-2 p {
+    font-size: 13px;
+    font-family: 'Steppe-Book', sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+/* БУДУЩЕЕ ГРУППЫ (История Колин Бриттейн) */
+.wrapper-history-Colin-Brittain {
+    height: 410px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    margin-top: -1px;
+}
+
+.grid-container-history-item-Colin-Brittain {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    font-size: 98px;
+    margin-top: 10px;
+    letter-spacing: 10px;
+}
+
+.Colin-Brittain-history {
+    width: 555px;
+    margin-left: -600px;
+    margin-top: 10px;
+}
+
+.Title-Groups-1-Colin-Brittain {
+    float: right;
+    margin-left: 370px;
+    margin-top: -670px;
+}
+
+.Title-Groups-1-Colin-Brittain h1 {
+    font-size: 45px;
+    font-family: 'Linkin Park', arial;
+    letter-spacing: 5px;
+    line-height: 100px;
+}
+
+.Title-Groups-1-Colin-Brittain p {
+    font-size: 13px;
+    font-family: 'Steppe-Book', sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+/* История Джо Хан */
+.wrapper-history-Joe-Hahn {
+    height: 410px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    margin-top: -1px;
+}
+
+.grid-container-history-item-Joe-Hahn {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    font-size: 98px;
+    margin-top: 10px;
+    letter-spacing: 10px;
+}
+
+.Joe-Hahn-history {
+    width: 555px;
+    margin-left: -600px;
+    margin-top: 10px;
+}
+
+.Title-Groups-1-Joe-Hahn {
+    float: right;
+    margin-left: 370px;
+    margin-top: -670px;
+}
+
+.Title-Groups-1-Joe-Hahn h1 {
+    font-size: 45px;
+    font-family: 'Linkin Park', arial;
+    letter-spacing: 5px;
+    line-height: 100px;
+}
+
+.Title-Groups-1-Joe-Hahn p {
+    font-size: 13px;
+    font-family: 'Steppe-Book', sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+.common-title-New-Albom {
+    font-family: 'Steppe-ExtraBold', sans-serif;
+    font-size: 60px;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+video {
+    width: 500px;
+    margin-top: 100px;
+    place-items: center;
+    margin-left: 350px;
+    border: 1px whitesmoke solid;
+}
+
+.title-New-Albom h1 {
+    margin-top: 10px;
+}
+
+.title-New-Albom p {
+    margin-top: 10px;
+}
+
+/* Товары (МЕРЧИ) */
+.products {
+    position: relative;
+    padding: 100px 0;
+}
+
+.products-items {
+    display: grid;
+    grid-template-columns: repeat(3, 384px);
+    gap: 90px 24px;
+    margin-top: 110px;
+}
+
+.products-item {
+    background-color: white;
+    color: var(--primary-color);
+}
+
+.products-item-image {
+    height: 252px;
+    text-align: center;
+}
+
+.products-item-image img {
+    height: 272px;
+    position: relative;
+    max-width: 100%;
+}
+
+.products-item-details {
+    padding: 29px;
+}
+
+.products-item-title {
+    font-family:'Steppe-Book',sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.products-item-text {
+    height: 110px;
+    font-size: 14px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.products-item-extra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products-item-price {
+    font-family:'Steppe-ExtraBold',sans-serif;
+    font-size: 24px;
+    color:#5243F4;
+    margin-bottom: 10px;
+}
+
+.Product-order {
+    background-color: var(--secondary-color);
+    border-radius: 60px;
+    width: 178px;
+    height: 58px;
+    box-sizing: border-box;
+    padding: 18px;
+    text-align: center;
+    font-size: 18px;
+    color: whitesmoke;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Steppe-Book', sans-serif;
+}
+
+.Product-order:hover {
+    background-color: transparent;
+    color: black;
+    border: 2px solid var(--secondary-color);
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Адаптив мерчей для разных устройств */
+.products-items:not(:nth-child(-n + 9)) {
+    display: none;
+}
+
+@media (main-width: 816px) {
+    .products-items:not(:nth-child(-n + 6)) {
+        display: none;
+    }
+}
+
+@media (main-width: 408px) {
+    .products-items:not(:nth-child(-n + 3)) {
+        display: none;
+    }
+}
+
+/* ПОДВАЛ (Footer) ДЛЯ МЕРЧЕЙ */
+.wrapper-62 {
+    height: 51px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: -40px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+}
+
+.wrapper-62 a{
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit; 
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 18px;
+    font-family: 'Steppe-ExtraBold', sans-serif;
+}
+
+.wrapper-72 {
+    height: 51px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: -39px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+}
+
+.wrapper-72 a{
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit; 
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-family: 'Steppe-ExtraBold', sans-serif;
+}
+
+.grid-container__03 {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    font-family: 'Linkin Park';
+    font-size: 130px;
+    margin-top: 20px;
+    letter-spacing: 10px;
+}
+
+/* Для Мерчей кнопка) */
+.main-content2 .main-info2 .button2 {
+    border-radius: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    color: whitesmoke;
+    outline: none;
+    cursor: pointer;
+}
+
+.main-content2 .main-info2 .button2:hover {
+    color: black;
+    border-color: var(--secondary-color);
+    background: transparent;
+}
+
+.main-content2 .main-info2 .button2 {
+    padding: 1.5px 26px;
+    margin-top: -3px;
+    background: var(--secondary-color);
+    color: var(--white-color);
+    border: 2px solid transparent;
+}
+
+/* Значок (пульсации) для изменения цен */
+.currency {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    height: 25px;
+    min-width: 25px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 28px;
+    z-index: 1;
+    user-select: none;
+    transform: scale(1);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+
+    100% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
+
+.World-Tour {
+    padding-bottom: 102px;
+    position: relative;
+}
+
+.World-Tour .container {
+    position: relative;
+}
+
+.common-title {
+    text-align: center;
+}
+
+.World-Tour-form-text {
+    font-family:'Steppe-ExtraBold', sans-serif;
+    font-size: 18px;
+    line-height: 130%;
+    margin-top: 90px;
+}
+
+.groups-tour img {
+    width: 350px;
+    margin-left: 175px;
+    margin-top: 555px;
+}
